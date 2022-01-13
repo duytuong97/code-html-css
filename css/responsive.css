@@ -1,0 +1,225 @@
+/* Mobile and Tablet */
+@media (max-width: 1023px) {
+
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .header{
+        position: fixed;
+        width: 100%;
+        z-index: 99999999999;
+        top: 0;
+    }
+
+    .container{
+    padding-top: calc(var(--header-height) + var(--header-subnav-moblie-tablet));
+    }
+
+    .header__with__cart-item-info{
+        margin-right: 38px;
+    }
+
+    .header__with__cart-item-view-cart{
+        margin-right: 27px;
+    }
+
+    .header__with__cart-list::after{
+        display: none;
+    }
+
+    .header__with__cart-list  {
+        position: fixed;
+        top: var(--header-height);
+        width: 100%;
+        right: 0;
+        padding: 0 calc((100% - 644px) /2 );
+
+    }
+
+    .header__with__cart-item{
+        position: relative;
+    }
+
+    .header__with__cart-item-trash-mobile-tablet{
+        position: absolute;
+        right: 0;
+        top: 9px;
+        font-size: 16px;
+        background-color: transparent;
+        border: none;
+        display: block;
+    }
+
+    .header__subnav__mobile__tablet-list{
+        display: flex;
+    }
+
+    .app__content{
+        padding-top: 8px;
+    }
+
+    .mobile__category{
+        display: block;
+    }
+
+
+    
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width:1023px) {
+    :root{
+        --header-height: 68px;
+        --header-navbar: 0px;
+    }
+
+    .hide-on-tablet {
+        display: none;
+    }
+    .header__with__cart{
+        width: 74px;
+        position: relative;
+        right: -24px;
+    }
+}
+/* mobile */
+@media (max-width:739px) {
+
+    :root{
+        --header-height: 54px;
+        --header-navbar: 0px;
+    }
+    .hide-on-mobile{
+        display: none;
+    }
+    
+    .header__subnav__mobile__tablet-list-item-link-money{
+        right: 26px;
+    }
+    
+    .header__with__logo{
+        flex: 1;
+    }
+    
+    .header__with__cart{
+        flex: 1;
+        justify-content: flex-end;
+        position: relative;
+        right: 38px;
+        top: 8px;
+    }
+    
+    .header__with__logo{
+        justify-content: center;
+    }
+    
+    .header__with__cart-wrap{
+        padding: 16px 16px;
+    }
+    
+    .header__with__cart-notice{
+        top: 8px;
+        right: 4px;
+    }
+    .header__with__icons-mobile--list{
+        top: var(--header-height);
+    }
+
+    .header__with__icons-mobile--list{
+        display: block;
+    }
+
+    .header__with__icons-mobile{
+        display: block;
+    }
+
+    .header__with__seach {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        left: 0;
+        height: var(--header-height);
+        padding: 10px;
+        transform: translateX(100%);
+    }
+    
+    .header__with__seach__border-mobile{
+        border: 1px solid var(--boder-color);
+        border-radius: 2px;
+
+    }
+
+    .header__with__seach-input-history{
+        position: fixed;
+        width: 100%;
+        top: var(--header-height);
+        box-shadow: 0 1px 1px 0.05 rgb(189 188 188);
+    }
+
+    .header__with__icons-mobile--btn-list-search-input:checked ~ .header__with__seach{
+        transform: translateX(0);
+    }
+
+    .pagination__item{
+        margin: 0;
+    }
+
+    .pagination__item-link{
+        --height:28px ;
+        min-width:36px;
+        font-size: 1.6rem;
+
+    }
+
+    .app__content{
+        margin: 0 4px;
+        padding-top: 8px;
+    }
+
+    
+
+    .header__with__link{
+        width: 46px;
+    }
+
+    .header__with__logo__img{
+        position: relative;
+        top: 2px;
+    }
+
+    .footer__header--end{
+        text-align: center;
+    }
+
+    .footer__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__end-img-item{
+        width: 28%;
+    }
+
+    .footer__end__list-item-link{
+
+    }
+
+    .footer__end__list{
+        display: none;
+    }
+
+    .footer__end{
+        padding-top: 16px;
+    }
+
+    .footer__download{
+        justify-content: center;
+    }
+
+    
+
+
+
+}

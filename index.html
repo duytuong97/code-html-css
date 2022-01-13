@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/asset/css/base.css">
+    <link rel="stylesheet" href="/asset/css/main.css">
+    <link rel="stylesheet" href="/asset/css/grid.css">
+    <link rel="stylesheet" href="/asset/css/responsive.css">
+    <link rel="stylesheet" href="/asset/fonts/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-mobile-tablet">
+                    <ul class="header__list">
+                        <li class="header__item header__item--open-qr header__item--separate">
+                            Vào cửa hàng của duy trên Web
+                            <div class="header__qr">
+                                <img src="/asset/img/qr-code.png" alt="QR code" class="header__qr__img">
+                                <div class="header__qr__appdow">
+                                    <a href="" class="header__qr__appdow-link">
+                                        <img src="/asset/img/appstore.png" alt="App tore" class="header__qr__appdow-img">
+
+                                    </a>
+                                    <a href="" class="header__qr__appdow-link">
+                                        <img src="/asset/img/gg-play.png" alt="Google Play" class="header__qr__appdow-img">
+
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__item">
+                            <span class="header__item--no-pointer">Kết nối</span>
+                            <a href="" class="header__iconitem">
+                                <i class="header__navbar__icon fab fa-facebook-square"></i>
+                            </a>
+                            <a href="" class="header__iconitem">
+                                <i class="header__navbar__icon fab fa-instagram-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="header__list">
+                        <li class="header__item header__item--open-notify">
+                            <a href="" class="header__subnav">
+                                <i class="header__navbar__icon fas fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__item__notification">
+                                <header class="header__item__notification__header ">
+                                    <h3>thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__item__notification__list">
+                                    <li class="header__item__notification__item header__item__notification__item--readed">
+                                        <a href="" class="header__item__notification__link">
+                                            <img src="/asset/img/header-notification/akita.png" alt="" class="header__item__notification__img">
+                                            <div class="header__item__notification__body">
+                                                <h4 class="header__item__notification__name">Akita Inu</h4>
+                                                <p class="header__item__notification__descriotion">Tên khác: Akita, Akita Nhật/Nguồn gốc: Nhật Bản</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__item__notification__item">
+                                        <a href="" class="header__item__notification__link">
+                                            <img src="/asset/img/header-notification/alabai.png" alt="" class="header__item__notification__img">
+                                            <div class="header__item__notification__body">
+                                                <h4 class="header__item__notification__name">Alabai</h4>
+                                                <p class="header__item__notification__descriotion">Tên: Chó chăn cừu Trung Á/Nguồn gốc: Trung Án</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__item__notification__item">
+                                        <a href="" class="header__item__notification__link">
+                                            <img src="/asset/img/header-notification/alaska.png" alt="" class="header__item__notification__img">
+                                            <div class="header__item__notification__body">
+                                                <h4 class="header__item__notification__name">Alaska</h4>
+                                                <p class="header__item__notification__descriotion">Tên khác: Alaska Malamute/Nguồn gốc: Hoa Kỳ</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__item__notification__item">
+                                        <a href="" class="header__item__notification__link">
+                                            <img src="/asset/img/header-notification/basset-hound.png" alt="" class="header__item__notification__img">
+                                            <div class="header__item__notification__body">
+                                                <h4 class="header__item__notification__name">Basset Hound</h4>
+                                                <p class="header__item__notification__descriotion">Tên khác: Chó săn chân lùn/Nguồn gốc: Anh</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__item__notification__footer">
+                                    <a href="" class="header__item__notification__footer__btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__item">
+                            <a href="" class="header__subnav">
+                                <i class="header__navbar__icon fas fa-question-circle"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <!-- <li class="header__item header__item--strong header__item--separate">Đăng kí</li>
+                        <li class="header__item header__item--strong">Đăng nhập</li> -->
+
+                        <li class="header__item header__navbar-user">
+                            <img src="/asset/img/user.jpg" alt="hình ảnh" class="header__navbar-user-avatar">
+                            <span class="header__navbar-user-name">Tường Duy</span>
+
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-menu-item">
+                                    <a href="" class="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-menu-item">
+                                    <a href="" class="">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-menu-item">
+                                    <a href="" class="">Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user-menu-item header__navbar-user-menu-item--saparate">
+                                    <a href="" class="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- header with seach -->
+                <div class="header__with">
+
+                    <!-- header bars and search mobile -->
+
+                    <div class="header__with__icons-mobile">
+                        <label for="header__with__icons-mobile-input-id" class="header__with__icons-mobile--btn-list">
+                            <i class="header__with__icons-mobile-bars fas fa-bars"></i>
+                        </label>
+
+                        <input type="checkbox" class="header__with__icons-mobile-input" id="header__with__icons-mobile-input-id">
+
+                        <label for="header__with__icons-mobile-input-id" class="header__with__icons-mobile-overlay"></label>
+
+                        <ul class="header__with__icons-mobile--list">
+                            <span class="header__with__icons-mobile--list-text">Tất cả sản phẩm</span>
+                            <li class="header__with__icons-mobile--list-item">
+                                <a href="#" class="header__with__icons-mobile--list-item-link">Đăng ký</a>
+                            </li>
+                            <li class="header__with__icons-mobile--list-item">  
+                                <a href="#" class="header__with__icons-mobile--list-item-link">Đăng nhập</a>
+                            </li>
+                            <li class="header__with__icons-mobile--list-item">
+                                <a href="#" class="header__with__icons-mobile--list-item-link">Đăng xuất</a>
+                            </li>
+                        </ul>
+                        
+                        <label for="header__with__icons-mobile--btn-list-search-input-id" class="header__with__icons-mobile--btn-list-search">
+                            <i class="header__with__icons-mobile-search fas fa-search"></i>
+                        </label>
+
+                        
+                        
+                    </div>
+                    
+                    
+                    <div class="header__with__logo hide-on-tablet">
+                        <a href="/" class="header__with__link">
+                            <img src="/asset/img/header-notification/logo-thucung.jpg" alt="logo-thucung" class="header__with__logo__img">
+                        </a>
+                    </div>
+                    
+                    <input type="checkbox" hidden id="header__with__icons-mobile--btn-list-search-input-id" class="header__with__icons-mobile--btn-list-search-input">
+                    <div class="header__with__seach">
+                        <div class="header__with__seach__border-mobile">
+                            <div class="header__with__seach-input-wrap">
+                                <input type="text" class="header__with__seach-input" placeholder="Giống chó , Xuất xứ , Nơi bán">
+                                <!--seach history -->
+                                <div class="header__with__seach-input-history">
+                                    <h3 class="header__with__seach-input-history-heading">Lịch sử tìm kiếm</h3>
+                                    <ul class="header__with__seach-input-history-list">
+                                        <li class="header__with__seach-input-history-item">
+                                            <a href="">Alaska</a>
+                                        </li>
+                                        <li class="header__with__seach-input-history-item">
+                                            <a href="">Husky</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__with__seach-select">
+                                <span class="header__with__seach-select-label">Trong shop</span>
+                                <i class="header__with__seach-select-icon fas fa-angle-down"></i>
+    
+                                <ul class="header__with__seach-option">
+                                    <li class="header__with__seach-option-item header__with__seach-option-item--active">
+                                        <span class="">Trong shop</span>
+                                        <i class="fas fa-check"></i>
+                                    </li>
+                                    <li class="header__with__seach-option-item">
+                                        <span class="">Ngoài shop</span>
+                                        <i class="fas fa-check"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="header__with__seach-btn">
+                                <i class="header__with__seach-btn-icon fas fa-search"></i>
+        
+                            </button>
+
+                        </div>
+                    </div>
+
+
+
+                    
+                    <!-- cart layuot -->
+                    <div class="header__with__cart">
+                        <div class="header__with__cart-wrap">
+                            <i class=" fas fa-shopping-cart header__with__cart-icon-head"></i>
+                            <span class="header__with__cart-notice">3</span>
+
+                            <!-- header__with__cart-list--no-cart -->
+                            <div class="header__with__cart-list  ">
+                                <img src="/asset/img/no-cart.png" alt="no-cart" class="header__with__cart-no-cart-img">
+                                <span class="header__with__cart-no-cart-list-text">Chưa có đơn hàng</span>
+
+                                <h4 class="header__with__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__with__cart-list-item">
+                                    <!-- cart item -->
+                                    <li class="header__with__cart-item">
+                                        <img src="https://sieupet.com/sites/default/files/bulldog.png" alt="" class="header__with__cart-img">
+
+                                        <div class="header__with__cart-item-info">
+                                            <div class="header__with__cart-item-head">
+                                                <h5 class="header__with__cart-item-name">BulldogBulldogBulldogBulldogBulldogBulldog</h5>
+                                                <div class="header__with__cart-item-wrap">
+                                                    <span class="header__with__cart-item-price">10.000.000đ</span>
+                                                    <span class="header__with__cart-item-multiply">x</span>
+                                                    <span class="header__with__cart-item-qnt">1</span>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="header__with__cart-item-body">
+                                                <span class="header__with__cart-item-description">Màu : trắng vàng</span>
+                                                <span class="header__with__cart-item-remove hide-on-mobile-tablet">Xóa</span>
+                                            </div>
+
+                                            <button class="header__with__cart-item-trash-mobile-tablet">
+                                                <i class="far fa-trash-alt"></i>
+                                            </button>
+
+
+                                        </div>
+                                    </li>
+                                    <li class="header__with__cart-item">
+                                        <img src="https://sieupet.com/sites/default/files/chow-chow.png" alt="" class="header__with__cart-img">
+
+                                        <div class="header__with__cart-item-info">
+                                            <div class="header__with__cart-item-head">
+                                                <h5 class="header__with__cart-item-name">Chow Chow</h5>
+                                                <div class="header__with__cart-item-wrap">
+                                                    <span class="header__with__cart-item-price">15.000.000đ</span>
+                                                    <span class="header__with__cart-item-multiply">x</span>
+                                                    <span class="header__with__cart-item-qnt">1</span>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="header__with__cart-item-body">
+                                                <span class="header__with__cart-item-description">Màu : trắng vàng</span>
+                                                <span class="header__with__cart-item-remove hide-on-mobile-tablet">Xóa</span>
+                                            </div>
+
+                                            <button class="header__with__cart-item-trash-mobile-tablet">
+                                                <i class="far fa-trash-alt"></i>
+                                            </button>
+
+
+
+                                        </div>
+                                    </li>
+                                    <li class="header__with__cart-item">
+                                        <img src="https://sieupet.com/sites/default/files/eskimo.png" alt="" class="header__with__cart-img">
+
+                                        <div class="header__with__cart-item-info">
+                                            <div class="header__with__cart-item-head">
+                                                <h5 class="header__with__cart-item-name">Eskimo</h5>
+                                                <div class="header__with__cart-item-wrap">
+                                                    <span class="header__with__cart-item-price">25.000.000đ</span>
+                                                    <span class="header__with__cart-item-multiply">x</span>
+                                                    <span class="header__with__cart-item-qnt">1</span>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="header__with__cart-item-body">
+                                                <span class="header__with__cart-item-description">Màu : trắng vàng</span>
+                                                <span class="header__with__cart-item-remove hide-on-mobile-tablet">Xóa</span>
+                                            </div>
+
+                                            <button class="header__with__cart-item-trash-mobile-tablet">
+                                                <i class="far fa-trash-alt"></i>
+                                            </button>
+
+
+                                        </div>
+                                    </li>
+                                    <li class="header__with__cart-item">
+                                        <img src="https://sieupet.com/sites/default/files/bulldog.png" alt="" class="header__with__cart-img">
+
+                                        <div class="header__with__cart-item-info">
+                                            <div class="header__with__cart-item-head">
+                                                <h5 class="header__with__cart-item-name">Bulldog</h5>
+                                                <div class="header__with__cart-item-wrap">
+                                                    <span class="header__with__cart-item-price">10.000.000đ</span>
+                                                    <span class="header__with__cart-item-multiply">x</span>
+                                                    <span class="header__with__cart-item-qnt">1</span>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="header__with__cart-item-body">
+                                                <span class="header__with__cart-item-description">Màu : trắng vàng</span>
+                                                <span class="header__with__cart-item-remove hide-on-mobile-tablet">Xóa</span>
+                                            </div>
+
+                                            <button class="header__with__cart-item-trash-mobile-tablet">
+                                                <i class="far fa-trash-alt"></i>
+                                            </button>
+
+
+                                        </div>
+                                    </li>
+
+                                    <li class="header__with__cart-item">
+                                        <img src="https://sieupet.com/sites/default/files/bulldog.png" alt="" class="header__with__cart-img">
+
+                                        <div class="header__with__cart-item-info">
+                                            <div class="header__with__cart-item-head">
+                                                <h5 class="header__with__cart-item-name">Bulldog</h5>
+                                                <div class="header__with__cart-item-wrap">
+                                                    <span class="header__with__cart-item-price">10.000.000đ</span>
+                                                    <span class="header__with__cart-item-multiply">x</span>
+                                                    <span class="header__with__cart-item-qnt">1</span>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="header__with__cart-item-body">
+                                                <span class="header__with__cart-item-description">Màu : trắng vàng</span>
+                                                <span class="header__with__cart-item-remove hide-on-mobile-tablet">Xóa</span>
+                                            </div>
+
+                                            <button class="header__with__cart-item-trash-mobile-tablet">
+                                                <i class="far fa-trash-alt"></i>
+                                            </button>
+
+
+                                        </div>
+                                    </li>
+                                    
+                                   
+                                    
+                                    
+                                      
+                                </ul>
+
+                                <a href="#" class="header__with__cart-item-view-cart btn btn--primary">Xem giỏ hàng</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <ul class="header__subnav__mobile__tablet-list">
+                <li class="header__subnav__mobile__tablet-list-item">
+                    <a href="#" class="header__subnav__mobile__tablet-list-item-link">Liên quan</a>
+                </li>
+                <li class="header__subnav__mobile__tablet-list-item header__subnav__mobile__tablet-list-item--active">
+                    <a href="#" class="header__subnav__mobile__tablet-list-item-link">Mới nhất </a>
+                </li>
+                <li class="header__subnav__mobile__tablet-list-item">
+                    <a href="#" class="header__subnav__mobile__tablet-list-item-link">Bán chạy</a>
+                </li>
+                <li class="header__subnav__mobile__tablet-list-item">
+                    <a href="#" class="header__subnav__mobile__tablet-list-item-link">Giá
+                        <div class="header__subnav__mobile__tablet-list-item-link-money">
+                            <i class="header__subnav__mobile__tablet-list-item-link-money-icon fas fa-chevron-up"></i>
+                            <i class="header__subnav__mobile__tablet-list-item-link-money-icon fas fa-chevron-down"></i>
+
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container">
+           <div class="grid wide">
+            <div class="row sm-gutter app__content">
+                <div class="col p-2 t-0 m-0">
+                    <nav class="category">
+                        <h3 class="category__heading">Giống Chó</h3>
+        
+                        <ul class="category-list">
+                            <li class="category-item category-item--active">
+                                <a href="#" class="category-item__link">Akita Inu</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-item__link">Alaska</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-item__link">Bắc Hà</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-item__link">Bulldog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col p-10 t-12 m-12">
+
+                    <div class="filter hide-on-mobile-tablet">
+                        <span class="home-filter__label">Sắp xếp theo</span>
+                        <button class="btn">Phổ Biến</button>
+                        <button class="btn btn--primary">Mới Nhất</button>
+                        <button class="btn">Bán Chạy</button>
+
+                        <div class="selec-input">
+                            <span class="selec-input__label">Giá</span>
+                            <i class="fas fa-angle-down"></i>
+
+                            <ul class="selec-input__sort">
+                                <li href="" class="selec-input__sort-item">Giá: Từ Thấp đến Cao</li>
+                                <li href="" class="selec-input__sort-item">Giá: Từ Cao đến Thấp</li>
+                                
+                            </ul>
+                        </div>
+
+                        <div class="home-filter__paginate">
+                            <span class="home-filter__page-num">
+                                <span class="home-filter__page-current">1</span>/3
+                            </span>
+
+                            <div class="home-filter__page-control">
+                                
+                                <a href="#" class="page btn--disabled home-filter__page-btn">
+                                    <i class="fas fa-angle-left"></i>
+                                </a>
+                                 
+                                    <a href="#" class="home-filter__page-btn">
+                                    <i class="fas fa-angle-right"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <nav class="mobile__category">
+                        <ul class="mobile__category__list">
+                            <li class="mobile__category__list-item">
+                                <a href="#" class="mobile__category__list-item-link">Dụng cụ và thiết bị huấn luyện Dụng cụ và thiết bị huấn luyện Dụng cụ và thiết bị huấn luyện Dụng cụ và thiết bị huấn luyện</a>
+                            </li>
+                            <li class="mobile__category__list-item">
+                                <a href="#" class="mobile__category__list-item-link">Dụng cụ và thiết bị huấn luyện</a>
+                            </li>
+                            <li class="mobile__category__list-item">
+                                <a href="#" class="mobile__category__list-item-link">Dụng cụ và thiết bị huấn luyện</a>
+                            </li>
+                            <li class="mobile__category__list-item">
+                                <a href="#" class="mobile__category__list-item-link">Dụng cụ và thiết bị huấn luyện</a>
+                            </li>
+                            <li class="mobile__category__list-item">
+                                <a href="#" class="mobile__category__list-item-link">Dụng cụ và thiết bị huấn luyện</a>
+                            </li>
+                            <li class="mobile__category__list-item">
+                                <a href="#" class="mobile__category__list-item-link">Dụng cụ và thiết bị huấn luyện</a>
+                            </li>
+                            <li class="mobile__category__list-item">
+                                <a href="#" class="mobile__category__list-item-link">Dụng cụ và thiết bị huấn luyện</a>
+                            </li>
+                            <li class="mobile__category__list-item">
+                                <a href="#" class="mobile__category__list-item-link">Dụng cụ và thiết bị huấn luyện</a>
+                            </li>
+                            <li class="mobile__category__list-item">
+                                <a href="#" class="mobile__category__list-item-link">Dụng cụ và thiết bị huấn luyện</a>
+                            </li>
+                            <li class="mobile__category__list-item">
+                                <a href="#" class="mobile__category__list-item-link">Dụng cụ và thiết bị huấn luyện</a>
+                            </li>
+                            <li class="mobile__category__list-item">
+                                <a href="#" class="mobile__category__list-item-link">Dụng cụ và thiết bị huấn luyện</a>
+                            </li>
+                            <li class="mobile__category__list-item">
+                                <a href="#" class="mobile__category__list-item-link">Dụng cụ và thiết bị huấn luyện</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="home__product">
+                        <div class="row sm-gutter">
+                            <div class="col p-2-4 t-4 m-6">
+                                <!-- product item -->
+                                <a class="home__product-item" href="#">
+                                    <div class="home__product-item--img" style="background-image: url(/asset/img/img-product/akita.png);"></div>
+                                    <h5 class="home__product-item--name">Akita Inu Tên khác: Akita, Akita Nhật Nguồn gốc Nhật Bản Phân loại: Chó bảo vệ</h5>
+                                    <div class="home__product-item--price">
+                                        <span class="home__product-item--price-old">15.000.000</span>
+                                        <span class="home__product-item--current">10.000.000</span>
+                                    </div>
+                                    <div class="home__product-item--action">
+                                        <span class="home__product-item--action-like home__product-item--action-liked">
+                                            <i class="home__product-item--action-like-icon-empty far fa-heart"></i>
+                                            <i class="home__product-item--action-like-icon-fill fas fa-heart"></i>
+                                        </span>
+
+                                        <div class="home__product-item--action-rating">
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <span class="home__product-item--sold">88 Đã Bán</span>
+                                    </div>
+
+                                    <div class="home__product-item--origin">
+                                        <span class="home__product-item--brand">Whoo</span>
+
+                                        <div class="home__product-item--origin-name">Nhật Bản</div>
+                                    </div>
+
+                                    <div class="home__product-item--favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span></span>
+                                    </div>
+
+                                    <div class="home__product-item--sale-off">
+                                        <span class="home__product-item--sale-off-percent">10%</span>
+                                        <span class="home__product-item--sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col p-2-4 t-4 m-6">
+                                <a class="home__product-item" href="#">
+                                    <div class="home__product-item--img" style="background-image: url(/asset/img/img-product/alabai.png);"></div>
+                                    <h5 class="home__product-item--name">Alabai
+                                        Tên: Chó chăn cừu Trung Á
+                                        Nguồn gốc: Trung Á
+                                        Phân loại: Chó chăn cừu </h5>
+                                    <div class="home__product-item--price">
+                                        <span class="home__product-item--price-old">10.000.000</span>
+                                        <span class="home__product-item--current">8.000.000</span>
+                                    </div>
+                                    <div class="home__product-item--action">
+                                        <span class="home__product-item--action-like home__product-item--action-liked">
+                                            <i class="home__product-item--action-like-icon-empty far fa-heart"></i>
+                                            <i class="home__product-item--action-like-icon-fill fas fa-heart"></i>
+                                        </span>
+
+                                        <div class="home__product-item--action-rating">
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <span class="home__product-item--sold">88 Đã Bán</span>
+                                    </div>
+
+                                    <div class="home__product-item--origin">
+                                        <span class="home__product-item--brand">Whoo</span>
+
+                                        <div class="home__product-item--origin-name">Nhật Bản</div>
+                                    </div>
+
+                                    <div class="home__product-item--favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span></span>
+                                    </div>
+
+                                    <div class="home__product-item--sale-off">
+                                        <span class="home__product-item--sale-off-percent">10%</span>
+                                        <span class="home__product-item--sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col p-2-4 t-4 m-6">
+                                <a class="home__product-item" href="#">
+                                    <div class="home__product-item--img" style="background-image: url(/asset/img/img-product/alaska.png);"></div>
+                                    <h5 class="home__product-item--name">Alaska
+                                        Tên khác: Alaska Malamute
+                                        Nguồn gốc: Hoa Kỳ
+                                        Phân loại: Chó kéo xe</h5>
+                                    <div class="home__product-item--price">
+                                        <span class="home__product-item--price-old">25.000.000</span>
+                                        <span class="home__product-item--current">20.000.000</span>
+                                    </div>
+                                    <div class="home__product-item--action">
+                                        <span class="home__product-item--action-like home__product-item--action-liked">
+                                            <i class="home__product-item--action-like-icon-empty far fa-heart"></i>
+                                            <i class="home__product-item--action-like-icon-fill fas fa-heart"></i>
+                                        </span>
+
+                                        <div class="home__product-item--action-rating">
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <span class="home__product-item--sold">88 Đã Bán</span>
+                                    </div>
+
+                                    <div class="home__product-item--origin">
+                                        <span class="home__product-item--brand">Whoo</span>
+
+                                        <div class="home__product-item--origin-name">Nhật Bản</div>
+                                    </div>
+
+                                    <div class="home__product-item--favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span></span>
+                                    </div>
+
+                                    <div class="home__product-item--sale-off">
+                                        <span class="home__product-item--sale-off-percent">10%</span>
+                                        <span class="home__product-item--sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col p-2-4 t-4 m-6">
+                                <a class="home__product-item" href="#">
+                                    <div class="home__product-item--img" style="background-image: url(/asset/img/img-product/alaska-giant.png);"></div>
+                                    <h5 class="home__product-item--name">Alaska Giant
+                                        Tên khác: Alask khổng lồ
+                                        Nguồn gốc: Hoa Kỳ
+                                        Phân loại: Chó kéo xe</h5>
+                                    <div class="home__product-item--price">
+                                        <span class="home__product-item--price-old">8.000.000</span>
+                                        <span class="home__product-item--current">5.000.000</span>
+                                    </div>
+                                    <div class="home__product-item--action">
+                                        <span class="home__product-item--action-like home__product-item--action-liked">
+                                            <i class="home__product-item--action-like-icon-empty far fa-heart"></i>
+                                            <i class="home__product-item--action-like-icon-fill fas fa-heart"></i>
+                                        </span>
+
+                                        <div class="home__product-item--action-rating">
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <span class="home__product-item--sold">88 Đã Bán</span>
+                                    </div>
+
+                                    <div class="home__product-item--origin">
+                                        <span class="home__product-item--brand">Whoo</span>
+
+                                        <div class="home__product-item--origin-name">Nhật Bản</div>
+                                    </div>
+
+                                    <div class="home__product-item--favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span></span>
+                                    </div>
+
+                                    <div class="home__product-item--sale-off">
+                                        <span class="home__product-item--sale-off-percent">10%</span>
+                                        <span class="home__product-item--sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col p-2-4 t-4 m-6">
+                                <a class="home__product-item" href="#">
+                                    <div class="home__product-item--img" style="background-image: url(/asset/img/img-product/basset-hound.png);"></div>
+                                    <h5 class="home__product-item--name">Basset Hound
+                                        Tên khác: Chó săn chân lùn
+                                        Nguồn gốc: Anh
+                                        Phân loại: Chó săn</h5>
+                                    <div class="home__product-item--price">
+                                        <span class="home__product-item--price-old">30.000.000</span>
+                                        <span class="home__product-item--current">15.000.000</span>
+                                    </div>
+                                    <div class="home__product-item--action">
+                                        <span class="home__product-item--action-like home__product-item--action-liked">
+                                            <i class="home__product-item--action-like-icon-empty far fa-heart"></i>
+                                            <i class="home__product-item--action-like-icon-fill fas fa-heart"></i>
+                                        </span>
+
+                                        <div class="home__product-item--action-rating">
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <span class="home__product-item--sold">88 Đã Bán</span>
+                                    </div>
+
+                                    <div class="home__product-item--origin">
+                                        <span class="home__product-item--brand">Whoo</span>
+
+                                        <div class="home__product-item--origin-name">Nhật Bản</div>
+                                    </div>
+
+                                    <div class="home__product-item--favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span></span>
+                                    </div>
+
+                                    <div class="home__product-item--sale-off">
+                                        <span class="home__product-item--sale-off-percent">10%</span>
+                                        <span class="home__product-item--sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col p-2-4 t-4 m-6">
+                                <a class="home__product-item" href="#">
+                                    <div class="home__product-item--img" style="background-image: url(/asset/img/img-product/bac-ha.png);"></div>
+                                    <h5 class="home__product-item--name">Bắc Hà
+                                        Nguồn gốc: Việt Nam
+                                        Phân loại: Chó săn, trông nhà
+                                        Đặc điểm: Lông xù, có bờm</h5>
+                                    <div class="home__product-item--price">
+                                        <span class="home__product-item--price-old">11.000.000</span>
+                                        <span class="home__product-item--current">10.000.000</span>
+                                    </div>
+                                    <div class="home__product-item--action">
+                                        <span class="home__product-item--action-like home__product-item--action-liked">
+                                            <i class="home__product-item--action-like-icon-empty far fa-heart"></i>
+                                            <i class="home__product-item--action-like-icon-fill fas fa-heart"></i>
+                                        </span>
+
+                                        <div class="home__product-item--action-rating">
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <span class="home__product-item--sold">88 Đã Bán</span>
+                                    </div>
+
+                                    <div class="home__product-item--origin">
+                                        <span class="home__product-item--brand">Whoo</span>
+
+                                        <div class="home__product-item--origin-name">Nhật Bản</div>
+                                    </div>
+
+                                    <div class="home__product-item--favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span></span>
+                                    </div>
+
+                                    <div class="home__product-item--sale-off">
+                                        <span class="home__product-item--sale-off-percent">10%</span>
+                                        <span class="home__product-item--sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col p-2-4 t-4 m-6">
+                                <a class="home__product-item" href="#">
+                                    <div class="home__product-item--img" style="background-image: url(/asset/img/img-product/bac-kinh_0.png);"></div>
+                                    <h5 class="home__product-item--name">Bắc Kinh
+                                        Tên khác: Sư tử cẩu, Phúc cẩu
+                                        Nguồn gốc: Trung Quốc
+                                        Phân loại: Chó cảnh</h5>
+                                    <div class="home__product-item--price">
+                                        <span class="home__product-item--price-old">33.000.000</span>
+                                        <span class="home__product-item--current">30.000.000</span>
+                                    </div>
+                                    <div class="home__product-item--action">
+                                        <span class="home__product-item--action-like home__product-item--action-liked">
+                                            <i class="home__product-item--action-like-icon-empty far fa-heart"></i>
+                                            <i class="home__product-item--action-like-icon-fill fas fa-heart"></i>
+                                        </span>
+
+                                        <div class="home__product-item--action-rating">
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <span class="home__product-item--sold">88 Đã Bán</span>
+                                    </div>
+
+                                    <div class="home__product-item--origin">
+                                        <span class="home__product-item--brand">Whoo</span>
+
+                                        <div class="home__product-item--origin-name">Nhật Bản</div>
+                                    </div>
+
+                                    <div class="home__product-item--favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span></span>
+                                    </div>
+
+                                    <div class="home__product-item--sale-off">
+                                        <span class="home__product-item--sale-off-percent">10%</span>
+                                        <span class="home__product-item--sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col p-2-4 t-4 m-6">
+                                <a class="home__product-item" href="#">
+                                    <div class="home__product-item--img" style="background-image: url(/asset/img/img-product/beagle.png);"></div>
+                                    <h5 class="home__product-item--name">Beagle
+                                        Tên khác: Chó săn thỏ
+                                        Nguồn gốc: Hy Lạp
+                                        Phân loại: Chó săn thỏ</h5>
+                                    <div class="home__product-item--price">
+                                        <span class="home__product-item--price-old">20.000.000</span>
+                                        <span class="home__product-item--current">18.000.000</span>
+                                    </div>
+                                    <div class="home__product-item--action">
+                                        <span class="home__product-item--action-like home__product-item--action-liked">
+                                            <i class="home__product-item--action-like-icon-empty far fa-heart"></i>
+                                            <i class="home__product-item--action-like-icon-fill fas fa-heart"></i>
+                                        </span>
+
+                                        <div class="home__product-item--action-rating">
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <span class="home__product-item--sold">88 Đã Bán</span>
+                                    </div>
+
+                                    <div class="home__product-item--origin">
+                                        <span class="home__product-item--brand">Whoo</span>
+
+                                        <div class="home__product-item--origin-name">Nhật Bản</div>
+                                    </div>
+
+                                    <div class="home__product-item--favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span></span>
+                                    </div>
+
+                                    <div class="home__product-item--sale-off">
+                                        <span class="home__product-item--sale-off-percent">10%</span>
+                                        <span class="home__product-item--sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col p-2-4 t-4 m-6">
+                                <a class="home__product-item" href="#">
+                                    <div class="home__product-item--img" style="background-image: url(/asset/img/img-product/becgie-bi.png);"></div>
+                                    <h5 class="home__product-item--name">Becgie Bỉ
+                                        Tên khác: Malinois
+                                        Nguồn gốc: Bỉ
+                                        Phân loại: Chó nghiệp vụ</h5>
+                                    <div class="home__product-item--price">
+                                        <span class="home__product-item--price-old">26.000.000</span>
+                                        <span class="home__product-item--current">25.000.000</span>
+                                    </div>
+                                    <div class="home__product-item--action">
+                                        <span class="home__product-item--action-like home__product-item--action-liked">
+                                            <i class="home__product-item--action-like-icon-empty far fa-heart"></i>
+                                            <i class="home__product-item--action-like-icon-fill fas fa-heart"></i>
+                                        </span>
+
+                                        <div class="home__product-item--action-rating">
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <span class="home__product-item--sold">88 Đã Bán</span>
+                                    </div>
+
+                                    <div class="home__product-item--origin">
+                                        <span class="home__product-item--brand">Whoo</span>
+
+                                        <div class="home__product-item--origin-name">Nhật Bản</div>
+                                    </div>
+
+                                    <div class="home__product-item--favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span></span>
+                                    </div>
+
+                                    <div class="home__product-item--sale-off">
+                                        <span class="home__product-item--sale-off-percent">10%</span>
+                                        <span class="home__product-item--sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col p-2-4 t-4 m-6">
+                                <a class="home__product-item" href="#">
+                                    <div class="home__product-item--img" style="background-image: url(/asset/img/img-product/becgie-duc.png);"></div>
+                                    <h5 class="home__product-item--name">Becgie Đức
+                                        Tên khác: Chó chăn cừu Đức
+                                        Nguồn gốc: Đức
+                                        Phân loại: Chó nghiệp vụ</h5>
+                                    <div class="home__product-item--price">
+                                        <span class="home__product-item--price-old">28.000.000</span>
+                                        <span class="home__product-item--current">25.000.000</span>
+                                    </div>
+                                    <div class="home__product-item--action">
+                                        <span class="home__product-item--action-like home__product-item--action-liked">
+                                            <i class="home__product-item--action-like-icon-empty far fa-heart"></i>
+                                            <i class="home__product-item--action-like-icon-fill fas fa-heart"></i>
+                                        </span>
+
+                                        <div class="home__product-item--action-rating">
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="home__product-item--action-rating--star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <span class="home__product-item--sold">88 Đã Bán</span>
+                                    </div>
+
+                                    <div class="home__product-item--origin">
+                                        <span class="home__product-item--brand">Whoo</span>
+
+                                        <div class="home__product-item--origin-name">Nhật Bản</div>
+                                    </div>
+
+                                    <div class="home__product-item--favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span></span>
+                                    </div>
+
+                                    <div class="home__product-item--sale-off">
+                                        <span class="home__product-item--sale-off-percent">10%</span>
+                                        <span class="home__product-item--sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <ul class="pagination home__product__pagination">
+                        <li class="pagination__item">
+                            <a href="" class="pagination__item-link">
+                                <i class="pagination__item-link--icon fas fa-angle-left"></i>
+                            </a>
+                        </li>
+
+                        <li class="pagination__item pagination__item--active">
+                            <a href="" class="pagination__item-link">1</a>
+                        </li>
+
+                        <li class="pagination__item">
+                            <a href="" class="pagination__item-link">2</a>
+                        </li>
+                        <li class="pagination__item">
+                            <a href="" class="pagination__item-link">3</a>
+                        </li>
+                        <li class="pagination__item">
+                            <a href="" class="pagination__item-link">4</a>
+                        </li>
+                        <li class="pagination__item">
+                            <a href="" class="pagination__item-link">5</a>
+                        </li>
+                        <li class="pagination__item">
+                            <a href="" class="pagination__item-link">...</a>
+                        </li>
+                        <li class="pagination__item">
+                            <a href="" class="pagination__item-link">14</a>
+                        </li>
+
+                        <li class="pagination__item">
+                            <a href="" class="pagination__item-link">
+                                <i class="pagination__item-link--icon fas fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+           </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row footer__header--end">
+                    <div class="col p-2-4 t-4 m-12">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Web ID</a>    
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Hướng dẫn mua hàng</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col p-2-4 t-4 m-12">
+                        <h3 class="footer__heading">Giới thiệu</h3> 
+
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Giới thiệu</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Điều khoản</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col p-2-4 t-4 m-12">
+                        <h3 class="footer__heading">Danh mục</h3>
+
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Alaska</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Bulldog</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Chi-hua-hua</a>
+
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="col p-2-4 t-4 m-12">
+                        <h3 class="footer__heading">Theo dõi chúng tôi</h3>
+                        
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">
+                                    <i class="footer__list-item-link-icon fab fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">
+                                    <i class="footer__list-item-link-icon fab fa-instagram-square"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">
+                                    <i class="footer__list-item-link-icon fab fa-linkedin"></i>
+                                    Linkedin
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col p-2-4 t-4 m-12">
+                        <h3 class="footer__heading">Vào cửa hàng tên ứng dụng Web</h3>
+
+                        <div class="footer__download">
+                            <img src="/asset/img/qr-code.png" alt="Download Qr" class="footer__dowload-qr">
+
+                            <div class="footer__download-apps">
+                                <img src="/asset/img/appstore.png" alt="appstore" class="footer__download-apps-img">
+                                <img src="/asset/img/gg-play.png" alt="ggplay" class="footer__download-apps-img">
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="footer__end">
+                 <ul class="footer__end__list">
+                    <li class="footer__end__list-item">
+                        <a href="" class="footer__end__list-item-link">CHÍNH SÁCH BẢO MẬT</a>
+                    </li>
+                    <li class="footer__end__list-item">
+                        <a href="" class="footer__end__list-item-link">QUY CHẾ HOẠT ĐỘNG</a>
+                    </li>
+                    <li class="footer__end__list-item">
+                        <a href="" class="footer__end__list-item-link">CHÍNH SÁCH VẬN CHUYỂN</a>
+                    </li>
+                    <li class="footer__end__list-item">
+                        <a href="" class="footer__end__list-item-link">CHÍNH SÁCH TRẢ HÀNG VÀ HOÀN TIỀN</a>
+                    </li>
+                 </ul>
+
+                 <div class="footer__end-img">
+                     <img src="/asset/img/bocongthuong.png" alt="" class="footer__end-img-item">
+                     <div class="footer__end-img-text">Công ty TNHH Tường Duy</div>
+                 </div>
+
+                 <div class="footer__end-info">
+                     <div class="footer__end-info-anddress">Địa chỉ: Tầng 4-5-6, Tòa nhà Capital Place, số 29 đường Liễu Giai, Phường Ngọc Khánh, Quận Ba Đình, Thành phố Hà Nội, Việt Nam. Tổng đài hỗ trợ: 19001221 - Email: cskh@hotro.shopee.vn</div>
+                     <div class="footer__end-info-text-end">Chịu Trách Nhiệm Quản Lý Nội Dung: Nguyễn Đức Trí - Điện thoại liên hệ: 024 73081221 (ext 4678)</div>
+                     <div class="footer__end-info-code-business">Mã số doanh nghiệp: 0106773786 do Sở Kế hoạch & Đầu tư TP Hà Nội cấp lần đầu ngày 10/02/2015</div>
+                     <div class="footer__end-info-time">© 2015 - Bản quyền thuộc về Công ty TNHH Shopee</div>
+                 </div>
+            </div>
+            
+        </footer>
+    </div>
+    <!-- modal lay out -->
+    <!-- <div class="modal"> -->
+        <!-- <div class="modal__overlay"></div>  -->
+        <!-- register auth -->
+        <!-- <div class="modal__content modal__content--width " > -->
+            <!-- <div class="modal__auth__container"> -->
+                <!-- <div class="modal__auth__header">
+                    <h3 class="modal__auth__heading">Đăng ký</h3>
+                    <span class="modal__auth__switch_btn">Đăng nhập</span>
+                </div>
+
+                <div class="modal__auth__body">
+                    <div class="modal__auth__group">
+                        <input type="text" class="modal__auth__input" placeholder="Email của bạn">
+                    </div>
+                    <div class="modal__auth__group">
+                        <input type="text" class="modal__auth__input" placeholder="Mật khẩu của bạn">
+                    </div>
+                    <div class="modal__auth__group">
+                        <input type="text" class="modal__auth__input" placeholder="Nhập lại mật khẩu">
+                    </div>
+                </div>
+
+                <div class="modal__auth__aside">
+                    <div class="modal__auth__policy-text">
+                        Bằng việc đăng ký, bạn đã đồng ý với chúng tôi về
+                        <a href="" class="modal__auth__policy_link">Điều khoản dịch vụ</a> &
+                        <a href="" class="modal__auth__policy_link">Chính sách bảo mật</a>
+                    </div>
+                </div>
+                <div class="modal__auth__controls">
+                    <button class="btn">TRỞ LẠI</button>
+                    <button class="btn btn--primary">ĐĂNG KÝ</button>
+                </div>
+            </div>
+            <div class="modal__auth__footer">
+                    <a href="" class="btn btn--width-icon">
+                        <i class="fab modal__auth__footer-icon fa-facebook-square"></i>
+                        <span class="modal__auth__footer-text">
+                            Kết nối với Facebook
+                        </span>
+                    </a>
+                    <a href="" class="btn btn--width-icon">
+                        <i class="fab modal__auth__footer-icon fa-google"></i>
+                        <span class="modal__auth__footer-text">
+                            Kết nối với Google
+                        </span>
+                    </a>
+            </div>
+        </div> -->
+        <!-- login auth -->
+        <!-- <div class="modal__content modal__content--width " >
+            <div class="modal__auth__container">
+                <div class="modal__auth__header">
+                    <h3 class="modal__auth__heading">Đăng nhập</h3>
+                    <span class="modal__auth__switch_btn">Đăng ký</span>
+                </div>
+
+                <div class="modal__auth__body">
+                    <div class="modal__auth__group">
+                        <input type="text" class="modal__auth__input" placeholder="Email của bạn">
+                    </div>
+                    <div class="modal__auth__group">
+                        <input type="text" class="modal__auth__input" placeholder="Mật khẩu của bạn">
+                    </div>
+                    
+                </div>
+
+                <div class="modal__auth__aside">
+                   <div class="modal__auth__aside__help">
+                       <a href="" class="modal__auth__aside__help-link modal__auth__aside__help-link-password">Quên mật hẩu</a>
+                       <a href="" class="modal__auth__aside__help-link modal__auth__aside__help-link-support">Cần trợ giúp?</a>
+                   </div>
+                </div>
+                <div class="modal__auth__controls">
+                    <button class="btn">TRỞ LẠI</button>
+                    <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                </div>
+            </div>
+            <div class="modal__auth__footer">
+                    <a href="" class="btn btn--width-icon">
+                        <i class="fab modal__auth__footer-icon fa-facebook-square"></i>
+                        <span class="modal__auth__footer-text">
+                            Kết nối với Facebook
+                        </span>
+                    </a>
+                    <a href="" class="btn btn--width-icon">
+                        <i class="fab modal__auth__footer-icon fa-google"></i>
+                        <span class="modal__auth__footer-text">
+                            Kết nối với Google
+                        </span>
+                    </a>
+            </div>
+        </div>
+    </div> -->
+</body>
+</html>
